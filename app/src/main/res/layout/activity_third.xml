@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guciio.smartlights.ThirdActivity">
+
+    <include layout="@layout/content_main" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="Ilosc osob w pokoju"
+        android:textSize="24sp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.guciio.smartlights.MainActivity">
+    <item
+        android:id="@+id/zapalanie"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="@string/zapalanie_swiatel"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/osobyPokoj"
+        android:orderInCategory="100"
+        android:title="@string/osoby_w_pokoju"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/back"
+        android:orderInCategory="100"
+        android:title="@string/back"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Smart Lights</string>\
+    <string name="zapalanie_swiatel">zapalanie swiatel</string>
+    <string name="osoby_w_pokoju">Osoby w pokoju</string>
+    <string name="backmanu">backmanu</string>
+    <string name="back">Back</string>
+</resources>
