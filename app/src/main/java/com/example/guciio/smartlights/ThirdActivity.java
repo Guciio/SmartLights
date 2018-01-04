@@ -9,6 +9,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 
 public class ThirdActivity extends AppCompatActivity {
@@ -19,6 +21,9 @@ public class ThirdActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
 
+        WebView myWebView = (WebView) findViewById(R.id.webView);
+        myWebView.setWebViewClient(new WebViewClient());
+        myWebView.loadUrl("http://www.google.com");
     }
 
     @Override
