@@ -12,6 +12,8 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final Object NULL = ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -54,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(i);
             return true;
+        }else {
+            NULL;
         }
         return super.onOptionsItemSelected(item);
     }
