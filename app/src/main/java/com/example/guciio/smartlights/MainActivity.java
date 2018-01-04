@@ -39,9 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.zapalanie) {
-
-
-            
             Intent i = new Intent(getApplicationContext(), SecondActivity.class);
             startActivity(i);
             return true;
